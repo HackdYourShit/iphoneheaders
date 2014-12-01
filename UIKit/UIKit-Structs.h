@@ -117,12 +117,6 @@ typedef struct UIStatusBarData {
 } UIStatusBarData;
 typedef UIStatusBarData XXStruct_AE4LvD;
 
-@class UIView, UIImage;
-typedef union {
-	UIImage* image;
-	UIView* view;
-} XXUnion_a01swB;
-
 typedef struct {
 	float _field1;
 	float _field2;

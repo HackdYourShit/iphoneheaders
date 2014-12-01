@@ -10,7 +10,7 @@
 @class UIView;
 
 @interface UIScrubberControl : UIOldSliderControl {
-	XXUnion_a01swB _sliderAvailableFill;
+	id _sliderAvailableFill;
 	double _duration;
 	float _lastDisplayedWidth;
 	float _maxTrackWidth;

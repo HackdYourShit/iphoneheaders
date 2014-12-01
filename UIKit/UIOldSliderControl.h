@@ -11,8 +11,8 @@
 
 @interface UIOldSliderControl : UIControl {
 	UIImage* _sliderLeftFillCap;
-	XXUnion_a01swB _sliderLeftFill;
-	XXUnion_a01swB _sliderRightFill;
+	id _sliderLeftFill;
+	id _sliderRightFill;
 	UIImage* _minValueImage;
 	UIImage* _maxValueImage;
 	int _numberOfTickMarks;
